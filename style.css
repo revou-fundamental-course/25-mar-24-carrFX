@@ -1,0 +1,109 @@
+body {
+    margin: 0%;
+    padding: 0%;
+    height: 100%;
+    background-color: white;
+}
+
+h1 {
+    color: black;
+    text-align: center;
+    border: black;
+    margin-left: 3%;
+    margin-bottom: 0%;
+    font-family: cursive;
+
+}
+
+h3 {
+    color: rgb(211, 0, 0);
+    text-align: center;
+    font-family: system-ui;
+}
+
+.hr {
+    color: black;
+    border: 1px solid black;
+}
+
+.container-content1 {
+    width: 45%;
+    height: 100%;
+    margin: 2%;
+    padding: 1%;
+    background-color: white;
+    border-radius: 10px;
+    box-shadow: 0px 0px 5px -1px rgba(0,0,0,0.75);
+}
+
+form {
+    text-align: center;
+    display: block;
+    width: 90%;
+    height: 95%;
+    padding: 3%;
+    margin: auto;
+    background-color: lightgray;
+    border: 1px solid black;
+    border-radius: 8px;
+}
+
+input {
+    text-align: center;
+}
+
+.container-content2 {
+    width: 45%;
+    margin: 2%;
+    padding: 1%;
+    background-color: white;
+    box-shadow: 0px 0px 5px -1px rgba(0,0,0,0.75);
+    border-radius: 10px;
+}
+
+.wrapper-hasil {
+    align-items: center;
+    height: 15%;
+    width: 95%;
+    padding: 1%;
+    margin: 1%;
+    background-color: lightgray;
+    border: 1px solid black;
+    border-radius: 8px;
+}
+
+.btn-hitung {
+    cursor: pointer;
+    border: 0.5px solid black;
+    border-radius: 2px;
+    background-color: rgb(78, 78, 78);
+    color: white;
+}
+
+.btn-reset {
+    cursor: pointer ;
+}
+
+.btn-hitung:hover {
+    background-color: rgb(52, 52, 213);
+    color: white;
+    transition: all ease-in-out 0.2s;
+}
+
+#result {
+    color: rgb(189, 4, 4);
+    text-align: center;
+    font-size: xx-large;
+    margin-bottom: 0%;
+}
+
+#resultText {
+    margin: 0;
+    text-align: center;
+    font-size: x-large;
+}
+
+footer {
+    color: black;
+    text-align: center;
+}
