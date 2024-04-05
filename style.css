@@ -26,6 +26,10 @@ h3 {
     border: 1px solid black;
 }
 
+section {
+    display: flex;
+}
+
 .container-content1 {
     width: 45%;
     height: 100%;
