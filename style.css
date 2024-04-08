@@ -84,7 +84,7 @@ input {
     color: white;
 }
 
-.btn-reset {
+#reset {
     cursor: pointer ;
 }
 
